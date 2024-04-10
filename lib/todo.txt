@@ -1,0 +1,6 @@
+-criar a funcionalidade de ler barcodes
+- || criar registo
+- funcionalidade de crud de prudutos
+
+-funcionalidade de bolha app
+-ser possivel usar a app em um click na bolha
