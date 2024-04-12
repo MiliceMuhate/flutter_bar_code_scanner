@@ -1,6 +1,16 @@
 -criar a funcionalidade de ler barcodes
 - || criar registo
+- registo de embalagens (stock)(crud)
 - funcionalidade de crud de prudutos
+-gerar o exel dos dados
+-ter admin side
+-admin web e mobile
+-admin gerir mais de uma empresa
+-cada conta so pode ter 2 users
 
 -funcionalidade de bolha app
 -ser possivel usar a app em um click na bolha
+
+
+app silimar para enventos, evitando bilhetes falsos.
+TICKETScan

@@ -1,3 +1,19 @@
+buildscript {
+    ext.kotlin_version = '1.8.22'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+//        classpath 'com.android.tools.build:gradle:3.3.3'
+//        classpath 'com.android.tools.build:gradle:X.Y.Z'
+//         implementation "androidx.core:core-splashscreen:1.0.1"
+    }
+}
+
 allprojects {
     repositories {
         google()
