@@ -30,7 +30,7 @@ Widget addform() {
             Expanded(
               child: TextFormField(
                 controller: barcodeController,
-                decoration: InputDecoration(labelText: 'Código de Barras'),
+                decoration: const InputDecoration(labelText: 'Código de Barras'),
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'Por favor, insira o código de barras';
@@ -39,8 +39,8 @@ Widget addform() {
                 },
               ),
             ),
-            const IconButton(
-              icon: Icon(Icons.camera_alt),
+            IconButton(
+              icon: Image.asset("assets/icons/barcode.png"),
               onPressed: scanCode,
             ),
           ],
@@ -65,7 +65,7 @@ Widget addform() {
         const SizedBox(height: 10.0),
         buildImageList(),
         const SizedBox(height: 20.0),
-        ElevatedButton(
+        const ElevatedButton(
           onPressed: submitForm,
           child: Text('Cadastrar'),
         ),
